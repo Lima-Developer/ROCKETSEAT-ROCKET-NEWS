@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!--Link css-->
     <link rel="stylesheet" href="style/style.css">
+    <!--Link fontes e ícones-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,30 +16,31 @@
 </head>
 <body>
     <header>
-        <!--Logo-->
-        <img src="/img/rocketseat-logo.png" alt="logo-rocketseat" width="40px">
-        <img src="/img/Vector (1).svg" alt="rocketseat-logo">
-        <img src="/img/Vector.svg" alt="ponto-verde">
+       <img src="/img/rocketseat-logo.png" alt="logo-rocketseat" width="50px" class="logo">
+        <img src="/img/Vector (1).svg" alt="rocketseat-nome-logo" class="text-logo">
+        <img src="/img/Vector.svg" alt="ponto-verde" class="point">
     </header>
-    <article>
+    <main>
         <section class="text">
             <span>atualize ideias e informações em 5 minutos.</span>
-            <p>tudo que você precisa saber para começar seu dia bem e informado</p>
+            <p class="highlight">tudo que você precisa saber para começar seu dia bem e informado</p>
             <p>noticias sobre o universo Rocketseat, e tudo o que precisa para começar o dia melhor.</p>
-            <p>perfeito para se preparar para codar ☕</p>
+            <p class="final-p">perfeito para se preparar para codar ☕</p>
         </section>
-        <section class="input">
+    </main>
+    <article>
+        <section class="email-check">
             <label for="E-mail">
                 Insira seu e-mail:
-                <input type="email" id="E-mail" name="E-mail" placeholder="olá@gmail.com">
             </label>
-            <button type="submit" class="sending-button"></button>
+            <input type="email" id="E-mail" name="E-mail" placeholder="olá@gmail.com" class="input"> 
+
+            <button type="submit" class="sending-button"><span class="material-symbols-outlined">arrow_forward</span></button>
             <a href=""></a>
         </section>
-    </article>
-    <aside>
-        <img src="/img/read_news 1.png" alt="reading-news">
-    </aside>
-
+        <section id="reading-image">
+            <img src="/img/read_news 1.png" alt="homem usando computador lendo notícias">
+        </section>
+    </article>    
 </body>
 </html>

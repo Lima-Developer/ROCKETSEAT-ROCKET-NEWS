@@ -1,7 +1,92 @@
-:root{
-    --background-color: var(#121214);
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+
+*{
+    font-family: 'League Spartan', 'Work Sans';
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background-color: var(--background-color);
+    background-color: var(--body-bg-color);
+    margin-left: 36px;
+    margin-top: 50px;
 }
+
+header{
+    display: inline-flex;
+    gap: 0.2rem;
+}
+
+header .logo{
+    width: 100px;
+    padding-left: 0%;
+}
+
+header .text-logo{
+    width: 300px;
+}
+
+header .point{
+    width: 12px;
+    transform: translateY(15px);
+}
+
+main{
+    padding-top: 92px;
+}
+
+main .text span{
+    color: var(--title-color);
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 8.56px;
+}
+
+main .text .highlight{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 9px;
+}
+
+main .text p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main .text .final-p{
+    padding-bottom: 90px;
+}
+
+article .email-check label{
+    display: block;
+}
+
+article .email-check .input{
+    width: 750px;
+    height: 48px;
+    background: #fff;
+    border: 0px;
+}
+article .email-check .sending-button{
+    background-color: var(--bg-button-color);
+    border: 0px;
+    height: 48px;
+    width: 48px;
+}
+
+
+#reading-image{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
